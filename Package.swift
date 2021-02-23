@@ -15,3 +15,4 @@ let package = Package(
                       url: "https://wmm-assets-prod.s3.amazonaws.com/release/sdk/2.9.12.xcframework.zip",
                       checksum: "1a49f99b0b65f6f109b106560f98b1f89614c33c9dd337b9821b621d943fc380")
     ]
+)
