@@ -4,10 +4,10 @@ import PackageDescription
 
 let package = Package(
   name: "WalkMeSDK",
-  products: [.library(name: "WalkMeSDK", 
+  products: [.library(name: "WalkMeSDK",
                       targets: ["WalkMeSDK"])],
-  targets: [.binaryTarget(name: "WalkMeSDK", 
-                          url: "https://wmm-assets-prod.s3.amazonaws.com/release/sdk/2.9.12.xcframework.zip", 
-                          checksum: "1a49f99b0b65f6f109b106560f98b1f89614c33c9dd337b9821b621d943fc380")],
+  targets: [.binaryTarget(name: "WalkMeSDK",
+                          url: "https://assets.abbi.io/release/sdk/2.10.3.xcframework.zip",
+                          checksum: "96f8586c87c196063602605fe12772c9ae802b14bff9e925c7d6e17bbfe2fc8a")],
   swiftLanguageVersions: [.v5]
 )
